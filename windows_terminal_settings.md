@@ -6,7 +6,7 @@
 { "$schema": "https://aka.ms/terminal-profiles-schema",
 
 // system, dark, light
-"theme": "dark",
+"theme": "light",
 
 // true, false, "mru", "inOrder", "disabled"
 "tabSwitchMode": true,

@@ -186,6 +186,7 @@
     - 颜色
         - 深色
         - 透明效果
+        - 在以下区域显示主题色->标题栏和窗口边框
 - 夜间模式->开启
 - 清空开始屏幕
 - 此电脑->固定到开始屏幕
@@ -276,6 +277,7 @@
     - dark mode
 - 安装adblock plus扩展
 - 安装sourcegraph扩展
+- 安装主题"Serenity"
 
 ### wsl
 - 启用或关闭Windows功能->适用于Linux的Windows子系统
