@@ -235,7 +235,7 @@
     - ctrl+enter在新标签页打开书签或历史
     - shift+enter在新窗口打开书签或历史
 - 安装autocontrol扩展
-    - [开启同步](AutoControl settings (2021-2-13).dat)
+    - [开启同步](AutoControl_settings.dat)
     - ctrl+w关闭tab
     - ctrl+shift+w关闭其他tab
     - ctrl+alt+w关闭所有tab
