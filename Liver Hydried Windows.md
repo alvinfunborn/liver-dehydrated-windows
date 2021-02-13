@@ -1,0 +1,382 @@
+
+### 功能描述
+- 切换窗口,tab更方便
+    - wox+switchroo显示和搜索所有窗口
+    - edge+autocontrol+quickey显示和搜索所有tab
+- 安装很少的应用
+    - wsl2
+    - windows terminal
+    - microsoft edge
+    - visual studio code
+    - wox
+- 环境移植简便
+    - windows同步设置
+    - wsl2导出分发到tar
+    - windows terminal setttings文件
+    - microsoft edge同步
+    - visual studio code同步
+    - wox的portable模式
+- 仅使用键盘或鼠标的场景操作简便
+    - 开始菜单, 任务栏, 应用里的图标等配置
+    - 快捷键配置
+    - 鼠标手势配置
+- 视觉上快速区分不同应用
+    - edge使用主题
+    - vscode自定义颜色
+- 视觉上快速区分当前聚焦的窗口
+    - vscode自定义颜色
+- 常用应用的快捷键相通
+```
+窗口,tab和窗格的常用快捷键
+- 新建
+    - 空白窗口 alt+n win+shift+num
+    - 最近的窗口 alt+`或shift+alt+`
+    - tab ctrl+n
+    - 空白窗格
+        - 向右 alt+=
+        - 向下 alt+shift+=
+
+- 转移或复制tab到新
+    - 窗口 ctrl+alt+n
+    - 窗格
+        - 向右 ctrl+alt+=
+        - 向左 ctrl+alt+shift+=
+- 复制
+    - 窗口 alt+c
+    - tab ctrl+shift+c
+    - 窗格 
+        - 向右 ctrl+alt+c
+        - 向下 ctrl+shift+alt+c
+- 切换
+    - 切换到之前
+        - 窗口 alt+tab
+        - tab ctrl+tab
+    - 切换到下一个
+        - 窗口 按住alt+tab
+        - tab 按住ctrl+tab
+    - 切换到上一个
+        - 窗口 按住alt+shift+tab
+        - tab 按住ctrl+shift+tab
+    - 切换到具体位置的
+        - 窗口 win+num
+        - tab ctrl+num
+        - 窗格 ctrl+num
+    - 切换到右边
+        - tab alt+]
+        - 窗格 alt+right
+    - 切换到左边
+        - tab alt+[
+        - 窗格 alt+left
+    - 切换到上边
+        - 窗格 alt+up
+    - 切换到下边 
+        - 窗格 alt+down
+- 显示,搜索并切换到打开的
+    - 窗口 win+`
+    - 同应用的窗口 alt+`
+    - tab ctrl+` (edge的quickey扩展不支持ctrl+`快捷键, 可以使用ctrl+q)
+- 显示,搜索并打开历史的
+    - 同应用的窗口 alt+`或shift+alt+`
+    - tab ctrl+`或ctrl+shift+` (edge的quickey扩展不支持ctrl+`快捷键, 可以使用ctrl+q)
+- 关闭
+    - 窗口 alt+w alt+f4
+    - tab ctrl+w
+    - 窗格 alt+-
+- 关闭全部
+    - tab ctrl+alt+w
+- 关闭其他
+    - tab ctrl+shift+w
+- 关闭搜索结果里的
+    - tab ctrl+backspace
+- 重新打开关闭的
+    - 窗口 shift+alt+n
+    - tab ctrl+shift+n
+- 后退 ctrl+[
+- 前进 ctrl+]
+- 移动tab到窗格
+    - 上移 ctrl+alt+up
+    - 下移 ctrl+alt+down
+    - 左移 ctrl+alt+left
+    - 右移 ctrl+alt+right
+- 调整大小
+    - 窗口 win+shift+up, win+up
+    - 窗格 alt+shift+;/./,/.
+- 移动
+    - 左移
+        - 窗口 win+left
+        - tab alt+shift+[
+        - 窗格 alt+shift+left
+    - 右移
+        - 窗口 win+right
+        - tab alt+shift+]
+        - 窗格 alt+shift+right
+    - 上移
+        - 窗格 alt+shift+up
+    - 下移
+        - 窗格 alt+shift+down
+- 合并
+    - 所有窗口 alt+m
+    - 所有窗格到一个窗口 ctrl+m
+    - 当前窗格到下一个窗格 ctrl+alt+m
+- 重置窗口大小 alt+r
+- 将窗口放到其他窗口底部 alt+f
+- 聚焦到导航/面包屑 alt+d
+- 搜索 ctrl+f
+- 打开设置 f1或ctrl+shift+s
+- 重命名 f2
+- 全屏 f11
+- 聚焦模式 f10
+- 固定窗口最前 f9
+- 放大/缩小 ctrl+=/-
+- 最大化 win+up
+```
+
+
+
+### windows
+- 检查更新->安装更新
+- 更改用户账户控制设置->从不通知
+- 卸载你敢卸载的程序
+- 同步个性化设置->验证
+- 键盘->字符重复
+    - 重复延迟->最短
+    - 字符重复->重复速度->最快
+- 鼠标设置->其他鼠标选项->指针选项->取消勾选提高鼠标精确度
+- 触摸板设置
+    - 更改光标速度
+    - 触摸板敏感度->最高敏感度
+    - 高级手势配置
+        - 配置三指手势
+            - 点击->鼠标中键
+            - 向下->除了焦点中的应用之外,隐藏任何对象
+        - 配置四指手势
+            - 点击->播放/暂停
+            - 向上->调高音量
+            - 向下->调低音量
+- 编辑语言和键盘选项
+    - 添加首选的语言->英语(美国)
+    - 日期,时间和区域格式设置
+        - 区域格式->英语(美国)
+        - 区域格式数据->更改数据格式
+    - 拼写,键入和键盘设置
+        - 键入->取消勾选在我选择建议的英文文本后添加一个空格
+        - 输入
+            - 在我键入时显示文本建议
+            - 根据识别到的你键入所使用的语言显示文本建议
+        - 高级键盘设置
+            - 取消使用桌面语言栏(如果可用)
+            - 语言栏选项->语言栏
+                - 隐藏
+- 语言栏下拉设置->仅勾选"中/英文"图标
+- 背景图像设置->选择默认图片
+- 锁屏界面设置
+    - 选择在锁屏界面上显示详细状态的应用->无
+    - 选择在锁屏界面上显示快速状态的应用->无
+- 电源和睡眠设置
+    - 从不关闭屏幕
+    - 从不睡眠
+    - 其他电源设置->选择电源按钮的功能
+        - 按电源按钮时->关机
+        - 关闭盖子时->不采取任何操作
+- 多任务设置->贴靠窗口->取消勾选将窗口对齐时,显示能够在其旁边对齐的内容
+- 剪贴板设置->打开剪贴板历史记录
+- 主题和相关设置
+    - 桌面图标设置->取消勾选全部
+    - 颜色
+        - 深色
+        - 透明效果
+- 夜间模式->开启
+- 清空开始屏幕
+- 此电脑->固定到开始屏幕
+- 回收站->固定到开始屏幕
+- edge->固定到开始屏幕
+- edge->固定到任务栏
+- 整理固定到快速访问
+- 任务栏设置
+    - 在桌面模式下自动隐藏任务栏
+    - 当你用鼠标移动到任务栏末端的"显示桌面"按钮时,使用"速览"预览桌面
+    - 任务栏在屏幕上的位置->顶部
+    - 选择哪些图标显示在任务栏上->电源,网络,音量
+    - 打开或关闭系统图标->始终,音量,网络,电源,输入指示,触摸键盘
+- 右键任务栏
+    - 取消勾选显示cortana按钮
+    - 搜索->隐藏
+- 开始菜单设置
+    - 在开始菜单上显示更多此帖
+    - 显示最常用的应用
+    - 选择哪些文件夹显示在开始菜单上->设置,文档,下载,音乐,视频
+- 启动应用->关闭全部
+
+### microsoft edge
+- 登录, 开启同步
+- 隐私,搜索和服务->地址栏和搜索
+    - 在地址栏中使用的搜索引擎
+    - 管理搜索引擎
+        - g 谷歌
+        - bd 百度
+        - db 豆瓣 https://search.douban.com/movie/subject_search?search_text=%s&cat=1002
+        - trans 翻译 https://translate.google.cn/?sl=auto&tl=zh-CN&text=s%s&op=translate
+        - map 百度地图 https://map.baidu.com/search/%s
+        - github github https://github.com/search?q=%s
+- 外观->自定义工具栏
+    - 显示主页按钮->主页打开新标签页
+    - 显示历史按钮
+    - 显示集锦按钮
+    - 显示网页捕获按钮
+- 下载->取消勾选每次下载都询问我该做些什么
+- 系统->保存资源->在指定一段时间后,将非活动标签页置于睡眠状态->6小时
+- 安装quickey扩展
+    - show the number of open tabs on the quickey icon
+    - ctrl+q激活
+    - /b 搜索书签
+    - /h 搜索历史记录
+    - ctrl+backspace关闭选中tab
+    - ctrl+enter在新标签页打开书签或历史
+    - shift+enter在新窗口打开书签或历史
+- 安装autocontrol扩展
+    - [开启同步](AutoControl settings (2021-2-13).dat)
+    - ctrl+w关闭tab
+    - ctrl+shift+w关闭其他tab
+    - ctrl+alt+w关闭所有tab
+    - ctrl+n新建tab
+    - ctrl+shift+n打开关闭的tab
+    - ctrl+shift+c复制tab
+    - ctrl+]前进
+    - ctrl+[后退
+    - alt+]切换到右侧tab
+    - alt+[切换到左侧tab
+    - alt+r重置窗口大小
+    - alt+f将窗口置于其他所有窗口下
+    - alt+c复制窗口 selecttabs(othertabs, currwindow)>>movetabs(newwindow)
+    - alt+n新建窗口 open file/program(edge)
+    - alt+w关闭窗口
+    - ctrl+alt+left将tab移到上一个活动窗口 movetabs(the right of othertabs(...))>>focus(window)
+    - ctrl+alt+right将tab移到下一个活动窗口 movetabs(the right of othertabs(...))>>focus(window)
+    - ctrl+alt+n将tab移动到新窗口 movetabs(currenttab, newwindow)
+    - alt+shift+[将tab往左移一位 movetabs(currenttab, the left of lefttab)
+    - alt+shift+]将tab往右移一位 movetabs(currenttab, the right of righttab)
+    - alt+m合并所有tab selecttabs(alltabs, allwindow)>>movetabs(newwindow)
+    - ctrl+alt+m合并当前窗口的tab到下一个活动窗口 selecttabs(alltabs, currwindow)>>movetabs(the right of othertabs(...))
+    - 添加鼠标手势
+    - tab切换
+        - ctrl+tab|openmenu(mru tab)>>moveitemmark(1)
+        - **ctrl↑|selectmarkeditem>>closemenu
+        - ctrl+shift+tab|openmenu(mru tab)>>moveitemmark(-1)
+        - ctrl+up|moveitemmark(-4)
+        - ctrl+down|moveitemmark(4)
+        - ctrl+left|moveitemmark(-1)
+        - ctrl+right|moveitemmark(1)
+- 安装google translate扩展
+- 安装油猴脚本扩展
+    - 安装油猴脚本"懒人专用,全网vip..."
+- 安装githuber扩展
+    - open link in new tab
+    - do not show bookmarks
+    - dark mode
+- 安装adblock plus扩展
+- 安装sourcegraph扩展
+
+### wsl
+- 启用或关闭Windows功能->适用于Linux的Windows子系统
+- 启用虚拟机功能, 在powershell中: dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+- [下载linux内核更新包](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)
+- 重启电脑
+- 将 WSL 2 设置为默认版本: wsl --set-default-version 2
+- 在应用商店获取ubuntu
+- 打开ubuntu安装
+- 设置用户名密码
+- 修改root密码: sudo passwd
+- 修改ubuntu默认登陆用户为root: ubuntu config --default-user root
+- 在wsl中打开文件资源管理器: explorer.exe .
+- ubuntu添加国内源
+- 安装java
+- 安装maven
+    - 配置settings.xml
+- 安装rust
+    - curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+    - 安装gcc: apt install build-essential
+- 安装git
+    - 配置git账号
+
+### windows terminal
+- 在应用商店下载windows terminal
+- [设置主题,启动路径,快捷键等](windows_terminal_settings.md)
+
+### visual studio code
+- 安装vscode: 将code操作添加到上下文菜单
+- 使用github账号登陆同步
+- [设置](code_settings.md)
+- [键绑定](code_keybinding.md)
+
+### wox
+- 安装[wox(full installer)](https://github.com/Wox-launcher/Wox)
+- 修改为[portable](wox.zip)
+- 开启启动
+- 失去焦点时自动隐藏wox
+- 隐藏任务栏图标
+- 记住上次启动位置
+- 启用拼音模块
+- 上次搜索关键字模式: 全选上次搜索关键字
+- 语言: 中文
+- 最大结果显示个数: 10
+- 主题: BlurBlack
+- 字体: Consolas
+- 热键: alt+space, win+`触发关键字"` "
+- 打开wox/app/themes/base.xaml修改字体大小
+    - querybox->fontsize=21
+    - querybox->height=30
+    - itemtitle->fontsize=15
+    - itemtitleselected->fontsize=15
+- 删除browser bookmarks插件
+- 删除hello world插件
+- url插件, 网页搜索插件
+    - 修改设置为新tab打开
+- 网页搜索插件
+    - 启用搜索建议
+    - 添加map https://map.baidu.com/search/{q}
+    - 添加douban https://search.douban.com/movie/subject_search?search_text={q}&cat=1002
+- 控制面板插件
+    - 触发关键字 cp
+- 命令行插件
+    - 使用powershell
+- 文件夹插件
+    - 触发关键字 dir
+    - 添加文件夹
+        - downloads
+        - workspace
+        - program files
+- 安装插件switchroo
+    - 修改触发关键字"`"
+    - swaps the title and subtitle in the results
+- 安装插件[wox.plugin.processkiller](https://github.com/cxfksword/Wox.Plugin.ProcessKiller)
+- 安装插件[dictionary](https://github.com/harrynull/WoxDictionary)
+    - 下载字典数据库ecdict.db放到wox/app/userdata/plugins/dictionary-xxx/dicts目录中
+- 下载[everything(便携版)](https://www.voidtools.com/zh-cn/downloads/)
+    - 打开everything.exe, 安装everything服务
+    - 工具->选项->界面->取消勾选显示托盘图标
+    - 修改wox的everything插件的触发关键字为"e"
+    - everything的常用修饰符
+        - 空格=与, |=或, !=非
+        - audio, zip, doc, exe, pic, video
+        - 末尾添加\ 只搜索该文件夹下的
+        - file: 只搜索文件
+        - folder: 只搜索目录
+        - wfn: 全名匹配
+        - case: 区分大小写
+        - content:文本(如果是词组, 用""包起来) 搜索包含文本内容的
+        - ww: 仅匹配全字(即完整单词, 左右是分隔符的)
+        - regex: 使用正则(似乎无效)
+        - noregex: 禁用正则(似乎无效)
+        - ext: 搜索该扩展名的
+        - child: 搜索包含匹配文件名文件的文件夹(似乎无效)
+        - parent: 搜索文件夹内的(似乎无效)
+        - size:字节数(例: 10,>10,<=10,10..20) 搜索该字节数的
+        - startwith:文本 搜索以文本开始的文件
+        - endwith:文本 搜索以文本或扩展名该结尾的文件
+- 安装插件[timer](https://github.com/creativitRy/WoxTimer)
+- 安装插件[timestamp](https://github.com/cxfksword/Wox.Plugin.Timestamp)
+- **todo**安装插件[zeal](https://github.com/yar999/Wox-Dash-Zeal)
+    - 下载[zeal(portable)](https://zealdocs.org/download.html)
+    - 关闭自动更新
+    - 下载docset: rust,mysql,bash...
+    - wox中设置zeal地址: 打开wox/app/userdata/plugins/zeal-xxx/docspath.json
