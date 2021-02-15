@@ -73,7 +73,7 @@
 - 向下复制行: ctrl+d
 - 新建窗口: alt+n
 - 行减少缩进: shift+tab
-- 行缩进: tab
+- 行缩进: tab when editorTextFocus && !editorReadonly && !suggestWidgetVisible
 - 选择全部: ctrl+a
 - 在下面插入行: shift+enter
 - 展开: ctrl+=
@@ -656,7 +656,7 @@
         "when": "inSearchEditor"
     },
     {
-        "key": "alt+oem_6",
+        "key": "ctrl+alt+oem_6",
         "command": "workbench.action.moveEditorRightInGroup"
     },
     {
@@ -664,7 +664,7 @@
         "command": "-workbench.action.moveEditorRightInGroup"
     },
     {
-        "key": "alt+oem_4",
+        "key": "ctrl+alt+oem_4",
         "command": "workbench.action.moveEditorLeftInGroup"
     },
     {
@@ -1487,7 +1487,7 @@
     {
         "key": "tab",
         "command": "editor.action.indentLines",
-        "when": "editorTextFocus && !editorReadonly"
+        "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible"
     },
     {
         "key": "ctrl+oem_6",
